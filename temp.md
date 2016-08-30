@@ -16,7 +16,7 @@ The following report is prepared for presenting my contribution to the CG projec
 
 The research began by studying the existing symptoms and classifications - Affected Product, Component, and Case Issue (PCI) - in the dictionary and their distributions under each clicked/typed symptom/classification categories. The following bullet points summarizes the works and results during this stage. The date headers in bullet points indicate when the works or final results are presented. 
 
-* **_March 7_**: the performance of the current suggestion system was initially investigated (using the statistics prepared by the HyunJooon), and the outline of the project based on the initial brain storming on the project’s road plan were in the CG meeting. The gist of the initial ideas was:
+* [**_March 15_**](./sourceFiles/March7): the performance of the current suggestion system was initially investigated (using the statistics prepared by the HyunJooon), and the outline of the project based on the initial brain storming on the project’s road plan were in the CG meeting. The gist of the initial ideas was:
     - Clustering symptoms in separate defined clusters.
     - Ranking PCIs under each cluster based on the extractable information from the dictionary such as their frequency.
     - Comparing the incoming query with symptoms clusters and finding the cluster with highest aggregate similarity.
