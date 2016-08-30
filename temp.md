@@ -7,18 +7,23 @@
 #####September 9, 2016
 =======================================
 
+
 ##Summary
 
 The following report is prepared for presenting my contribution to the CG project in organized form as well as facilitating the next contributions to the project. The works are first represented in chronological order for better understanding the evolution of the works in the project and possibly preventing the wheel reinvention. At the last section, the final versions of the works that are completed or supposed to be completed in future are represented. The hasty reader may want to just skip to the final section.
-Initial Studies on the Dictionary and the Log Data
+
+### **Initial Studies on the Dictionary and the Log Data**
+
 The research began by studying the existing symptoms and classifications - Affected Product, Component, and Case Issue (PCI) - in the dictionary and their distributions under each clicked/typed symptom/classification categories. The following bullet points summarizes the works and results during this stage. The date headers in bullet points indicate when the works or final results are presented. 
-•	March 7: the performance of the current suggestion system was initially investigated (using the statistics prepared by the HyunJooon), and the outline of the project based on the initial brain storming on the project’s road plan were in the CG meeting. The gist of the initial ideas was:
-o	Clustering symptoms in separate defined clusters.
-o	Ranking PCIs under each cluster based on the extractable information from the dictionary such as their frequency.
-o	Comparing the incoming query with symptoms clusters and finding the cluster with highest aggregate similarity.
-o	Suggesting the highest ranked classifications.
-•	March 22: the dictionary was studied in more detail to better understand the diversity of classifications (especially CIs) inside groups defined by symptoms and (eligible) product groups. 
-o	Results: It was shown that while there can be many cases for which there are less than 3 classifications, but the numbers of cases with high numbers of classifications are still very considerable. (It should be mentioned that this study was made before dictionary expansion, and by expanding the dictionary as well as adding new data to the dictionary, the results can be much more diverse and numbers of classifications under each category after symptom selection will be higher).
+
+ * **_March 7_**: the performance of the current suggestion system was initially investigated (using the statistics prepared by the HyunJooon), and the outline of the project based on the initial brain storming on the project’s road plan were in the CG meeting. The gist of the initial ideas was:
+    - Clustering symptoms in separate defined clusters.
+    - Ranking PCIs under each cluster based on the extractable information from the dictionary such as their frequency.
+    - Comparing the incoming query with symptoms clusters and finding the cluster with highest aggregate similarity.
+    - Suggesting the highest ranked classifications.
+
+  * **_March 22_**: the dictionary was studied in more detail to better understand the diversity of classifications (especially CIs) inside groups defined by symptoms and (eligible) product groups. 
+    - Results: It was shown that while there can be many cases for which there are less than 3 classifications, but the numbers of cases with high numbers of classifications are still very considerable. (It should be mentioned that this study was made before dictionary expansion, and by expanding the dictionary as well as adding new data to the dictionary, the results can be much more diverse and numbers of classifications under each category after symptom selection will be higher).
 •	 March 29: the work on the log data was started. Initial statistics coverage and CTR were calculated. Also, the pattern in symptom/classification suggestions and clicks were initially studied. The numbers in this study may not be very accurate since the data extracted from the log is just based on rows, and the role of Test IDs were not considered.
 •	April 12: the work on the log data was continued. The distribution of symptom suggestions and typing-clicking patterns per P.C. as well as agent groups were studied. It was shown that some P.C. groups attract more symptom suggestions. Another part of this study was on the agent’s behavior. It was illustrated that some agents are more into typing habits than the others. The numbers in this study may not be very accurate since the data extracted from the log is just based on rows, and the role of Test IDs were not considered.
 •	April 21: The distribution of symptoms-classifications pairs based on the defined clicked-or-typed categories were studied using the updated log data. It was shown that the majority of the data fell into the typed symptom-typed classification category. Also, it was shown that there are cases in which final correct classification was suggested but it was not clicked by the agents. The numbers in this study may not be very accurate since the data extracted from the log is just based on rows, and the role of Test IDs were not considered.
