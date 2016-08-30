@@ -47,7 +47,7 @@ The following works on the project has more organized and purposeful form after 
 
 * **_May 24_**: Comprehensive and accurate codes were written in Python for extracting extensive ranges of information and metrics from the raw log data. These codes (with limited updates) are used through the project for weekly analysis of log data. The codes extract data based on both last S, last C, last I pattern and separate SC-CF patterns for each test ID. The comprehensive information extracted using these codes can be found in the report prepared for the meeting held on this date. It was clear from the metrics that the coverage for symptom/classification suggestions are very low.    
 
-* **_May 31_ **: To increase the coverages, it was decided to expand the symptom-classification dictionary by propagating the Symptoms-Components-Issues for the similar products. The codes were written in Python for dictionary expansion using set of defined product groups.  The results of this expansion were sent to update the applied dictionary in the system. 
+* **_May 31_**: To increase the coverages, it was decided to expand the symptom-classification dictionary by propagating the Symptoms-Components-Issues for the similar products. The codes were written in Python for dictionary expansion using set of defined product groups.  The results of this expansion were sent to update the applied dictionary in the system. 
     - The other jobs accomplished during this week (continued from weeks before) was training the Doc2Vec models using extracted data from the support data. The data extraction and model training were done using the modules in the Support package. 
 
 * **_June 10_**: The following bullets summarize the tasks performed during first week of June.
