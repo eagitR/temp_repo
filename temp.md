@@ -9,18 +9,20 @@
 
 ##Summary
 
-The following report is prepared for presenting my contribution to the CG project in organized form as well as facilitating the next contributions to the project. The works are first represented in chronological order for better understanding the evolution of the works in the project. The works that are completed or supposed to be completed in future are represented. The hasty reader may want to just skip to the final section.
+The following report is prepared for presenting my contribution to the CG project in organized form as well as facilitating the next contributions to the project. The works are first represented in chronological order for better understanding the evolution of the works in the project. The latest versions of the codes are represented at the end of the report. So, the hasty reader may want to just skip to the final section.
 
 ***
 ### **Initial Studies on the Dictionary and the Log Data**
 
 The research began by studying the existing symptoms and classifications - Affected Product, Component, and Case Issue (PCI) - in the dictionary and their distributions under each clicked/typed symptom/classification categories. The following bullet points summarizes the works and results during this stage. The date headers in bullet points indicate when the works or final results are presented. 
 
-* [**_March 15_**](./sourceFiles/March7): the performance of the current suggestion system was initially investigated (using the statistics prepared by the HyunJooon), and the outline of the project based on the initial brain storming on the project’s road plan were in the CG meeting. The gist of the initial ideas was:
+* [**_March 7_**](./sourceFiles/March7): the outline of the project based on the initial brain storming on the project’s road plan were represented in the CG meeting. The gist of the initial ideas was:
     - Clustering symptoms in separate defined clusters.
     - Ranking PCIs under each cluster based on the extractable information from the dictionary such as their frequency.
     - Comparing the incoming query with symptoms clusters and finding the cluster with highest aggregate similarity.
     - Suggesting the highest ranked classifications.
+
+* [**_March 15_**](./sourceFiles/March15): the performance of the current suggestion system was initially investigated (using the statistics prepared by the HyunJooon). Also, the frequency of the symptoms and affected products per product group were initially investigated.
 
 * **_March 22_**: the dictionary was studied in more detail to better understand the diversity of classifications (especially CIs) inside groups defined by symptoms and (eligible) product groups. 
     - Results: It was shown that while there can be many cases for which there are less than 3 classifications, but the numbers of cases with high numbers of classifications are still very considerable. (It should be mentioned that this study was made before dictionary expansion, and by expanding the dictionary as well as adding new data to the dictionary, the results can be much more diverse and numbers of classifications under each category after symptom selection will be higher).
