@@ -68,7 +68,7 @@ The following works on the project has more organized and purposeful form after 
 
 * [**_June 17_**](./sourceFiles/July17): The log data extraction codes and dictionary expansion evaluation codes were updated for better quality and performance. The results were communicated with the group, through meeting. 
 
-* [**_July 29](./sourceFiles/July29): The idea of keyword expansion for the symptoms were tried. The top tokens in symptoms were selected based on their TFIDF scores, and were expanded using different Word2Vec models by adding similar words to them. In addition, the symptoms were weighted using their CTRs extracted from the log data. This approach were tried and evaluated in the following weeks. 
+* [**_July 29_**](./sourceFiles/July29): The idea of keyword expansion for the symptoms were tried. The top tokens in symptoms were selected based on their TFIDF scores, and were expanded using different Word2Vec models by adding similar words to them. In addition, the symptoms were weighted using their CTRs extracted from the log data. This approach were tried and evaluated in the following weeks. 
 
 * [**_Aug 1_**](./sourceFiles/Aug1): The following are the works finished for this date.
     - More work was done on dictionary symptom clustering and codes were refined. The expanded symptoms by the Word2Vec model keywords were used for vectorization and clustering. The results are not very promising, since adding keywords can add noise to the data and make similar symptoms very dissimilar. 
