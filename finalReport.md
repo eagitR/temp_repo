@@ -91,20 +91,21 @@ The following works on the project has more organized and purposeful form after 
 </a>
 The following sections describe the final versions of the codes for accomplished works that are required for running my pipeline. The codes are tried to be as simple as possible and be easily run in shell with few arguments. Each of the following sections demosntrates the codes running in shell and the resulting outputs.   
 
-#### **Codes for Getting Log Data From Hive**
+#### [**Codes for pulling log Data from Hive**](./sourceFiles/finalVersions/hive)
+<a name="hive">
+</a>
+These codes pulls the data out of symptoms, classification, feedback tables in aml_cg database, for the given start and end dates as arguments. The pulled data will be from begining of the start date (00:00:00) to the end of the end date (23:59:59). The schema used for pulling data out hive here will be applied by the following codes for data extraction. Code should be run in "searchp".
 
-These codes pulls the data out of symptoms, classification, feedback tables in aml_cg database, for the given start and end dates as arguments. The pulled data will be from begining of the start date (00:00:00) to the end of the end date (23:59:59). The schema used for pulling data out hive here will be applied by the following codes for data extraction. Codes should be run in "searchp".
-
-Inputs:
+_Inputs_:
 - Start date (format: YYYY-mm-dd)
 - End date (format: YYYY-mm-dd)
 
-Outputs:
+_Outputs_:
 - symptoms_$startDate_$endDate.txt
 - classifications_$startDate_$endDate.txt
 - feedback_$startDate_$endDate.txt
 
-Code running demonstration:
+Demonstration:
 ```bash
 bash-4.1$ bash hiveRunner_Eliyar.sh 2016-06-01 2016-06-03
 
@@ -168,9 +169,83 @@ total 4986052
 
 ```
 
-##### Log Data Extraction Code
+#### [**Log data extraction code**](./sourceFiles/finalVersions/logDataExtractionCodes_shellRunner_final.py)
 
-*Inputs*:
-- 
+the code is written in python for extracting comprehensive information by processing the pulled raw log data (using [codes](./sourceFiles/finalVersions/hive)explained above).  
+
+_Required libraries_:
+- pandas
+- numpy 
+- re
+- os
+- sys
+- time
+- warnings
+ 
+_Inputs_:
+- Address of curation dictionary (in .xlsx format)
+- Address of pulled symptom files from hive ([above](#hive))
+- Address of pulled classification files from hive ([above](#hive))
+- Address of pulled feedback files from hive ([above](#hive))
+- Address of directory that contains Product, Component, Issue mapping files with the following names (if the names change minor corrections are required):
+    - productToGroupMap_v4.0.xlsx
+    - componentMap_v4.0.xlsx
+    - issueMap_v4.0.xlsx
+- Time interval that data represents (optional, used for tagging)
+- Separator used in files for separating columns in each row (optional, default is "::-::-::")
+
+_Outputs_:
+- Combined symptom(S), classification(C), feedback(F) tables (grouped by Test ID)
+- Log data extracted based on "last S - last C - last F" pattern (marked by SCF)
+- Log data extracted based on consecutive "SC" and "CF" patterns (marked by SC-CF)
+- Reformatted SCF file for new symptom detection (NSD) pipeline.
+- Reformatted SC-CF file for new symptom detection (NSD) pipeline.
+- Eligible products with codes not existing in the mapping files (if any)
+- Components with codes not existing in the mapping files (if any)
+- Issues products with codes not existing in the mapping files (if any)
+
+Demonstration:
+```bash
+python logDataExtractionCodes_shellRunner_final.py ./symptomClassification.xlsx ./logFiles/symptoms_05_16-05_22-2016.txt ./classifications_05_16-05_22-2016.txt ./feedback_05_16-05_22-2016.txt ./dictionary_mappingFiles/ 05_16-05_22 
+
+ ----------------------------------------------------------------------------------------------------
+Loading S, C, and F log data and preparing/combining them ...
+Progress: S, C, and F data prepared and combined. Time spent: 3.74 minutes.
+
+
+ ----------------------------------------------------------------------------------------------------
+Loading/preparing the symptom-classification dictionary ... 
+Dictionary loaded and prepared.
+
+ ----------------------------------------------------------------------------------------------------
+Starting post-processing the combined log data (SCF patterns)... 
+Progress: 100%
+
+Log data post-processing (SCF pattern) completed. Time spent: 10.33 minutes.
+
+
+
+ ----------------------------------------------------------------------------------------------------
+Starting post-processing the combined log data (SC and CF patterns)... 
+Finding SC and CF patterns for each testID.
+Progress: 100%
+Processing the data for each testID and its SC and/or CF patterns.
+Progress: 100%
+
+Log data post-processing (SC and CF patterns) completed. Time spent: 19.97 minutes.
+
+
+ ----------------------------------------------------------------------------------------------------
+Saving the final results in a proper format for feeding into the New Symptom Detection pipeline.
+
+ ----------------------------------------------------------------------------------------------------
+Process finished. Total time spent: 34.51 minutes.
+
+```
+
+#### [**Dictionary expansion codes**](./sourceFiles/finalVersions/logDataExtractionCodes_shellRunner_final.py)
+
+the code is written in python for extracting comprehensive information by processing the pulled raw log data (using [codes](./sourceFiles/finalVersions/hive)explained above).  
+
 
 
