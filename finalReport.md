@@ -171,7 +171,7 @@ total 4986052
 
 #### [**Log data extraction code**](./sourceFiles/finalVersions/logDataExtractionCodes_shellRunner_final.py)
 
-the code is written in python for extracting comprehensive information by processing the pulled raw log data (using [codes](./sourceFiles/finalVersions/hive)explained above).  
+The code is written in python for extracting comprehensive information by processing the pulled raw log data (using [codes](./sourceFiles/finalVersions/hive) explained above).  
 
 _Required libraries_:
 - pandas
@@ -245,7 +245,41 @@ Process finished. Total time spent: 34.51 minutes.
 
 #### [**Dictionary expansion codes**](./sourceFiles/finalVersions/logDataExtractionCodes_shellRunner_final.py)
 
-the code is written in python for extracting comprehensive information by processing the pulled raw log data (using [codes](./sourceFiles/finalVersions/hive)explained above).  
+The code is written in python for expanding the dictuonary by propagating the symptoms/classifications (PCI) among products belonging to the same product groups. The groups are defined subjectively (confirmed by the AML CG team) and can be changed inside the code. 
+
+_Required libraries_:
+- pandas
+- os
+- sys
+
+_Inputs_:
+- Address of curation dictionary (in .xlsx format)
+- Address of directory that contains Product, Component, Issue mapping files with the following names (if the names change minor corrections are required):
+    - productToGroupMap_v4.0.xlsx
+    - componentMap_v4.0.xlsx
+    - issueMap_v4.0.xlsx
+
+_Outputs_:
+- The expanded dictionary
+- The expanded components mapping file
+- The expanded case issue mapping file
+
+Demonstration:
+```bash
+python dictionaryExpansionByPropagation_final.py ./symptomClassification.xlsx ./dictionary_mappingFiles/
+
+ ----------------------------------------------------------------------------------------------------
+Reading preparing dictionary ...
+
+ ----------------------------------------------------------------------------------------------------
+Reading the mapping files and preparing translation dictionary ...
+
+ ----------------------------------------------------------------------------------------------------
+Expanding the dictionary based on the defined product groups ...
+(181807, 11)
+Finished expanding the dictionary. Time spent: 2.3 minutes.
+```
+
 
 
 
