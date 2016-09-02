@@ -90,7 +90,7 @@ The following works on the project has more organized and purposeful form after 
 
 The following sections describe the final versions of the codes for accomplished works that are required for running my pipeline. The codes are tried to be as simple as possible and be easily run in shell with few arguments. Each of the following sections demosntrates the codes running in shell and the resulting outputs.   
 
-##### Codes for Getting Log Data From Hive
+#### **Codes for Getting Log Data From Hive**
 
 These codes pulls the data out of symptoms, classification, feedback tables in aml_cg database, for the given start and end dates as arguments. The pulled data will be from begining of the start date (00:00:00) to the end of the end date (23:59:59). The schema used for pulling data out hive here will be applied by the following codes for data extraction. Codes should be run in "searchp".
 
