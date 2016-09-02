@@ -85,3 +85,91 @@ The following works on the project has more organized and purposeful form after 
 
 * [**_Aug 31_**](./sourceFiles/Aug31): The quality and feasibility of symptom clustering were evaluated using new methods and studying the clusters inside each product group. Different methods were tried for increasing the quality of clustering. 
 
+***
+### **Final Versions of Codes and Their Running Tips**
+
+The following sections describe the final versions of the codes for accomplished works that are required for running my pipeline. The codes are tried to be as simple as possible and be easily run in shell with few arguments. Each of the following sections demosntrates the codes running in shell and the resulting outputs.   
+
+##### Codes for Getting Log Data From Hive
+
+These codes pulls the data out of symptoms, classification, feedback tables in aml_cg database, for the given start and end dates as arguments. The pulled data will be from begining of the start date (00:00:00) to the end of the end date (23:59:59). The schema used for pulling data out hive here will be applied by the following codes for data extraction. Codes should be run in "searchp".
+
+Inputs:
+- Start date (format: YYYY-mm-dd)
+- End date (format: YYYY-mm-dd)
+
+Outputs:
+- symptoms_$startDate_$endDate.txt
+- classifications_$startDate_$endDate.txt
+- feedback_$startDate_$endDate.txt
+
+Code running demonstration:
+```bash
+bash-4.1$ bash hiveRunner_Eliyar.sh 2016-06-01 2016-06-03
+
+Getting data from 2016-06-01 to  2016-06-03  (from symptom, classification, feedback tables in the aml_cg database)
+16/09/02 18:50:03 INFO Configuration.deprecation: mapred.input.dir.recursive is deprecated. Instead, use mapreduce.input.fileinputformat.input.dir.recursive
+.
+.
+.
+OK
+Time taken: 2.355 seconds
+Total MapReduce jobs = 1
+Launching Job 1 out of 1
+.
+.
+.
+2016-09-02 18:50:51,879 Stage-1 map = 0%,  reduce = 0%
+.
+.
+.
+2016-09-02 18:54:45,674 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1079.73 sec
+MapReduce Total cumulative CPU time: 17 minutes 59 seconds 730 msec
+Ended Job = job_1446237185892_226585
+Moving data to: tempCGData_1726354527182735_2016-06-01_2016-06-03/symptoms
+MapReduce Jobs Launched: 
+Job 0: Map: 299   Cumulative CPU: 1079.73 sec   HDFS Read: 17996923639 HDFS Write: 60923531 SUCCESS
+Total MapReduce CPU Time Spent: 17 minutes 59 seconds 730 msec
+OK
+source	requesttype	_c2	testid	requestid	traceid	start_timestamp	end_timestamp	start_datetime	end_datetime	timestamp_inrequestdata	_c11	productgroupfamilyid	productgroupid	affectedproductid	eligibleproductid	agentid	symptom_suggestions	month	year
+Time taken: 282.389 seconds
+.
+.
+.
+2016-09-02 18:56:23,026 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 622.08 sec
+MapReduce Total cumulative CPU time: 10 minutes 22 seconds 80 msec
+Ended Job = job_1446237185892_226589
+.
+.
+.
+2016-09-02 18:58:11,014 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 2156.98 sec
+MapReduce Total cumulative CPU time: 35 minutes 56 seconds 980 msec
+Ended Job = job_1446237185892_226593
+Moving data to: tempCGData_1726354527182735_2016-06-01_2016-06-03/feedback
+MapReduce Jobs Launched: 
+Job 0: Map: 481   Cumulative CPU: 2156.98 sec   HDFS Read: 33704147907 HDFS Write: 29969837 SUCCESS
+Total MapReduce CPU Time Spent: 35 minutes 56 seconds 980 msec
+OK
+source	requesttype	request_data	testid	start_timestamp	end_timestamp	start_datetime	end_datetime	timestamp_inrequestdata	query	productgroupfamilyid	productgroupid	affectedproductid	eligibleproductid	agentid	caseid	classificationset	selected_classification
+Time taken: 108.936 seconds
+
+16/09/02 19:00:35 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 86400000 minutes, Emptier interval = 0 minutes.
+Moved: 'hdfs://ma1-rspp-lnn.corp.apple.com/user/searchp/tempCGData_1726354527182735_2016-06-01_2016-06-03' to trash at: hdfs://ma1-rspp-lnn.corp.apple.com/user/searchp/.Trash/Current
+
+-bash-4.1$ ls -al
+total 4986052
+.
+.
+.
+-rw-r----- 1 searchp searchp   30079806 Sep  2 19:00 classifications_2016-06-01_2016-06-03.txt
+-rw-r----- 1 searchp searchp   33671451 Sep  2 19:00 feedback_2016-06-01_2016-06-03.txt
+-rw-r----- 1 searchp searchp   68607340 Sep  2 19:00 symptoms_2016-06-01_2016-06-03.txt
+
+```
+
+##### Log Data Extraction Code
+
+*Inputs*:
+- 
+
+
