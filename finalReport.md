@@ -86,8 +86,9 @@ The following works on the project has more organized and purposeful form after 
 * [**_Aug 31_**](./sourceFiles/Aug31): The quality and feasibility of symptom clustering were evaluated using new methods and studying the clusters inside each product group. Different methods were tried for increasing the quality of clustering. 
 
 ***
+<a name="tasks">
 ### **Final Versions of Codes and Their Running Tips**
-
+</a>
 The following sections describe the final versions of the codes for accomplished works that are required for running my pipeline. The codes are tried to be as simple as possible and be easily run in shell with few arguments. Each of the following sections demosntrates the codes running in shell and the resulting outputs.   
 
 #### **Codes for Getting Log Data From Hive**
