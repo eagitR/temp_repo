@@ -8,7 +8,7 @@
 
 ## Summary
 
-The following report is prepared for presenting my contribution to the CG project in organized form as well as facilitating the next contributions to the project. The works are first represented in chronological order for better understanding the evolution of the works in the project. The latest versions of the codes are represented at the end of the report. So, the hasty reader may want to just skip to the [final section](###**Final Versions of Codes and Their Running Tips**). In the following, the date headers in bullet points indicate when the works or final results are presented. 
+The following report is prepared for presenting my contribution to the CG project in organized form as well as facilitating the next contributions to the project. The works are first represented in chronological order for better understanding the evolution of the works in the project. The latest versions of the codes are represented at the end of the report. So, the hasty reader may want to just skip to the [final section](#Final Versions of Codes and Their Running Tips). In the following, the date headers in bullet points indicate when the works or final results are presented. 
 
 ***
 ### **Initial Studies on the Dictionary and the Log Data**
