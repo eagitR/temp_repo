@@ -93,6 +93,7 @@ The following works on the project has more organized and purposeful form after 
 
 The following sections describe the final versions of the codes for accomplished works that are required for running my pipeline. The codes are tried to be as simple as possible and be easily run in shell with few arguments. Each of the following sections demosntrates the codes running in shell and the resulting outputs.   
 
+
 #### [**_Raw log data extraction codes_**](./sourceFiles/finalVersions/hive)
 <a name="hive">
 </a>
@@ -282,6 +283,7 @@ Reading the mapping files and preparing translation dictionary ...
 Expanding the dictionary based on the defined product groups ...
 (181807, 11)
 Finished expanding the dictionary. Time spent: 2.3 minutes.
+
 ```
 
 
