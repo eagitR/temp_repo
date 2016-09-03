@@ -93,7 +93,7 @@ The following works on the project has more organized and purposeful form after 
 
 The following sections describe the final versions of the codes for accomplished works that are required for running my pipeline. The codes are tried to be as simple as possible and be easily run in shell with few arguments. Each of the following sections demosntrates the codes running in shell and the resulting outputs.   
 
-#### [**Codes for pulling log Data from Hive**](./sourceFiles/finalVersions/hive)
+#### [**_Raw log data extraction codes_**](./sourceFiles/finalVersions/hive)
 <a name="hive">
 </a>
 These codes pulls the data out of symptoms, classification, feedback tables in aml_cg database, for the given start and end dates as arguments. The pulled data will be from begining of the start date (00:00:00) to the end of the end date (23:59:59). The schema used for pulling data out hive here will be applied by the following codes for data extraction. Code should be run in "searchp".
@@ -172,7 +172,7 @@ total 4986052
 ```
 
 
-#### [**Log data extraction code**](./sourceFiles/finalVersions/logDataExtractionCodes_shellRunner_final.py)
+#### [**_Log data extraction/processing code_**](./sourceFiles/finalVersions/logDataExtractionCodes_shellRunner_final.py)
 
 The code is written in python for extracting comprehensive information by processing the pulled raw log data (using [codes](./sourceFiles/finalVersions/hive) explained above).  
 
@@ -247,7 +247,7 @@ Process finished. Total time spent: 34.51 minutes.
 ```
 
 
-#### [**Dictionary expansion codes**](./sourceFiles/finalVersions/dictionaryExpansionByPropagation_final.py)
+#### [**_Dictionary expansion code_**](./sourceFiles/finalVersions/dictionaryExpansionByPropagation_final.py)
 
 The code is written in python for expanding the dictuonary by propagating the symptoms/classifications (PCI) among products belonging to the same product groups. The groups are defined subjectively (confirmed by the AML CG team) and can be changed inside the code. 
 
@@ -285,7 +285,7 @@ Finished expanding the dictionary. Time spent: 2.3 minutes.
 ```
 
 
-#### [**Dictionary expansion codes**](./sourceFiles/finalVersions/dictionaryExpansionByPropagation_final.py)
+#### [**_Dictionary expansion evaluation code_**](./sourceFiles/finalVersions/dictionaryExpansionByPropagation_final.py)
 
 The code is written in python for evaluating the effect of expanding the curation dictuonary by propagating the symptoms/classifications (PCI) among products belonging to the same product groups as well as using SETI symptoms.
 
