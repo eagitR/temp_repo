@@ -287,7 +287,7 @@ Finished expanding the dictionary. Time spent: 2.3 minutes.
 ```
 
 
-#### [**_Dictionary expansion evaluation code_**](./sourceFiles/finalVersions/dictionaryExpansionByPropagation_final.py)
+#### [**_Dictionary expansion evaluation code_**](./sourceFiles/finalVersions/dictionaryExpansionEvaluationCodes_final.py)
 
 The code is written in python for evaluating the effect of expanding the curation dictuonary by propagating the symptoms/classifications (PCI) among products belonging to the same product groups as well as using SETI symptoms.
 
@@ -314,7 +314,7 @@ _Outputs_:
 - Meta data that summarizes the total effects
 
 ```bash
-python .dictionaryExpansionEvaluationCodes_final.py ./symptomClassification_v4.2_expanded.xlsx ./logExtracted_SCF_TestIDgrps_05_16-05_22.csv ./acceptedSETIsymptoms.xlsx 05_16-05_22
+python dictionaryExpansionEvaluationCodes_final.py ./symptomClassification_v4.2_expanded.xlsx ./logExtracted_SCF_TestIDgrps_05_16-05_22.csv ./acceptedSETIsymptoms.xlsx 05_16-05_22
 
  ----------------------------------------------------------------------------------------------------
 Loading/preparing the symptom-classification dictionary ... 
@@ -350,6 +350,21 @@ Numbers of Final Symptom Coming from SETI (clicked) 2
 Process finished. Total time spent: 3.93 minutes.
 
 ```
+
+
+#### [**_Symptoms keywords expansion and weighting code_**](./sourceFiles/finalVersions/dictionaryExpansionEvaluationCodes_final.py)
+
+The code is written in python for evaluating the effect of expanding the curation dictuonary by propagating the symptoms/classifications (PCI) among products belonging to the same product groups as well as using SETI symptoms.
+
+_Required libraries_:
+- 
+
+_Inputs_:
+- 
+
+_Outputs_:
+- 
+
 
 
 
