@@ -86,9 +86,11 @@ The following works on the project has more organized and purposeful form after 
 * [**_Aug 31_**](./sourceFiles/Aug31): The quality and feasibility of symptom clustering were evaluated using new methods and studying the clusters inside each product group. Different methods were tried for increasing the quality of clustering. 
 
 ***
+
 <a name="end">
 ### **Final Versions of Codes and Their Running Tips**
 </a>
+
 The following sections describe the final versions of the codes for accomplished works that are required for running my pipeline. The codes are tried to be as simple as possible and be easily run in shell with few arguments. Each of the following sections demosntrates the codes running in shell and the resulting outputs.   
 
 #### [**Codes for pulling log Data from Hive**](./sourceFiles/finalVersions/hive)
@@ -169,6 +171,7 @@ total 4986052
 
 ```
 
+
 #### [**Log data extraction code**](./sourceFiles/finalVersions/logDataExtractionCodes_shellRunner_final.py)
 
 The code is written in python for extracting comprehensive information by processing the pulled raw log data (using [codes](./sourceFiles/finalVersions/hive) explained above).  
@@ -243,7 +246,8 @@ Process finished. Total time spent: 34.51 minutes.
 
 ```
 
-#### [**Dictionary expansion codes**](./sourceFiles/finalVersions/logDataExtractionCodes_shellRunner_final.py)
+
+#### [**Dictionary expansion codes**](./sourceFiles/finalVersions/dictionaryExpansionByPropagation_final.py)
 
 The code is written in python for expanding the dictuonary by propagating the symptoms/classifications (PCI) among products belonging to the same product groups. The groups are defined subjectively (confirmed by the AML CG team) and can be changed inside the code. 
 
@@ -280,6 +284,70 @@ Expanding the dictionary based on the defined product groups ...
 Finished expanding the dictionary. Time spent: 2.3 minutes.
 ```
 
+
+#### [**Dictionary expansion codes**](./sourceFiles/finalVersions/dictionaryExpansionByPropagation_final.py)
+
+The code is written in python for evaluating the effect of expanding the curation dictuonary by propagating the symptoms/classifications (PCI) among products belonging to the same product groups as well as using SETI symptoms.
+
+_Required libraries_:
+- pandas
+- numpy
+- collections
+- sys
+- os
+- time 
+
+_Inputs_:
+- Address of the expanded curation dictionary in .xlsx format
+- Address of extracted log data (using the log data extraction/processing pipeline) in .csv format. The files with SCF
+or SC-CF tags in the outputs from running this pipeline can be used.
+- Address of the file containing confirmed/added SETI symptoms in .xlsx format. This file should have one sheet with
+ the SETI symptoms in its first column.
+- Time interval that data represents (optional, used for tagging)
+
+_Outputs_:
+- Coverage and CTR metrics
+- Measured effects of adding SETI symptoms to the dictionary
+- Measured effects of propagation symptom-classifications for defined product groups
+- Meta data that summarizes the total effects
+
+```bash
+python .dictionaryExpansionEvaluationCodes_final.py ./symptomClassification_v4.2_expanded.xlsx ./logExtracted_SCF_TestIDgrps_05_16-05_22.csv ./acceptedSETIsymptoms.xlsx 05_16-05_22
+
+ ----------------------------------------------------------------------------------------------------
+Loading/preparing the symptom-classification dictionary ... 
+Dictionary loaded and prepared.
+
+ ----------------------------------------------------------------------------------------------------
+Loading and preparing the extracted log file ...
+The extracted log file loaded and prepared.
+
+ ----------------------------------------------------------------------------------------------------
+Starting metric calculations ... 
+
+Measuring the effect of expanding the symptom-classification dictionary by the SETI symptoms ...
+Progress: 100%
+
+Measuring the effect of expanding the symptom-classification dictionary by the propagation ...
+Progress: 100%
+Done with the metric calculation.
+numSymp =  29279
+numClass =  42863
+numSympSugg =  11453
+numClassSugg =  5412
+numSympClicked =  4402
+numClassClicked =  2633
+Numbers of Classification suggestion with at least one Propagated case =  529
+Numbers of Final Classification Coming from Propagations 521
+Numbers of Final Classification Coming from Propagations (clicked) 212
+Number of Symptoms Suggestions with at Least one fromSETI 25
+Numbers of Final Symptom Coming from SETI 2
+Numbers of Final Symptom Coming from SETI (clicked) 2
+
+ ----------------------------------------------------------------------------------------------------
+Process finished. Total time spent: 3.93 minutes.
+
+```
 
 
 
