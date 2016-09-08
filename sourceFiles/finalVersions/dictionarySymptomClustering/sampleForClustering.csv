@@ -1,0 +1,467 @@
+,Keywords,Symptoms
+0,airport express,"slow, sluggish performance system wide"
+1,airport express,System Wide: Slow or sluggish performance
+2,apple pencil,Accessories: Calling for repair options regarding accidental damage to Apple accessories
+4,apple pencil,Accessories: Calling for repair options regarding damage to Apple accessories
+6,apple pencil,Accessories: Issues with Apple Pencil
+13,apple pencil,Accessories: Questions about features or functionality of Apple Pencil
+17,apple pencil,Apple Pencil does not draw in Notes app
+19,apple pencil,Apple Pencil not detected
+21,apple pencil,Apple Pencil tip has physical or accidental damage
+23,apple pencil,"ARS: Questions regarding Genius Bar, One to One, or other ARS services"
+24,apple pencil,Complaint about Apple Retail Store experience
+25,apple pencil,Damage: Tip Damage
+27,apple pencil,Delayed response from iPad Pro when using Apple Pencil
+28,apple pencil,How to check battery level of Apple Pencil
+30,apple pencil,How to pair Apple Pencil
+33,apple pencil,How to verify that Apple Pencil is paired with device
+35,apple pencil,Inquiring if / when lightning adapter will be sold separately for Apple Pencil
+39,apple pencil,No response from iPad Pro when using Apple Pencil
+43,apple pencil,"Sales: Purchasing, ordering, or selling a device"
+47,apple remote desktop,3rd Party: Questions or issues regarding 3rd party apps
+48,apple remote desktop,Apple ID: Issues or questions with Security Questions
+49,apple remote desktop,Assistance resetting security questions in order to purchase or download content
+50,apple remote desktop,Cannot receive text messages after replacing iPhone with non-Apple phone
+51,apple remote desktop,Device has physical or accidental damage
+52,apple remote desktop,Inquiring whether the Flappy Bird is still available in the App Store
+53,apple remote desktop,iTunes Store: Unexpected or unauthorized charges
+54,apple remote desktop,Lost/Stolen device: Request to report to Law Enforcement
+55,apple remote desktop,Messages: Cannot receive SMS or MMS messages after switching from iPhone
+56,apple remote desktop,Repair options for a cracked or broken display / screen - multiple cracks
+57,apple remote desktop,Report Lost/Stolen device or other Law Enforcement Requests (iOS)
+58,apple remote desktop,Unauthorized charges appear to be from the iTunes Store
+59,apple tv,'For You' and 'New' tabs not found in Music app on Apple TV
+60,apple tv,'For You' tab not found in Music app on Apple TV
+63,apple tv,'Get' button replaced by spinning wheel when attempting to download 3rd party app
+64,apple tv,'My List' in 3rd party app 'Netflix' displayed horizontally rather than grid view
+65,apple tv,‘A new version of the game is available’ upon launching 3rd party app ‘Dungeon Hunter 5’
+67,apple tv,‘A problem occurred while playing this item (10008)’ when playingback content in 3rd party app ‘Netflix’
+68,apple tv,‘An error occurred loading this content.’ on Apple TV when attempting to AirPlay video content from 3rd party app ’Sling Player’ on iOS device
+69,apple tv,‘An error occurred loading this content’ when playing content within 'YouTube'
+71,apple tv,‘An update of GTSpirit is available! Please download it to continue playing!’ when launching 3rd party app ‘GTSpirit’
+72,apple tv,‘Cannot connect to iTunes Store’ when signing in to iTunes and App Store on Apple TV
+75,apple tv,‘Pairing Remote. Bring it closer to your Apple TV to continue pairing. when pairing replacement Siri Remote
+78,apple tv,‘Please enter a valid activation code’ when activating 3rd party app ‘CNBC’ on Apple TV
+79,apple tv,"‘Sorry, Hulu encountered a network error.’ upon launching 3rd party app ‘Hulu'"
+80,apple tv,‘Subscribe to NFL Game Pass’ when attempting to to view content in 3rd party app ‘NFL’ after restoring iTunes purchase
+81,apple tv,‘There was an error downloading the content. Try again later. when attempting to install a previously purchased app
+82,apple tv,‘Turn on Home Sharing in iTunes on your computer or on Apple TV’ in iOS Remote app when using with Apple TV
+84,apple tv,‘Unable to Download App. [App] could not be downloaded at this time.’ when downloading 3rd party app from the App Store
+85,apple tv,‘Unable to Download App. [App] could not be installed at this time.’ when downloading 3rd party app from App Store.
+86,apple tv,‘Unable to reach this accessory’ when attempting to lock HomeKit device using the 3rd party app ‘Schlage Sense’ on iOS device
+87,apple tv,‘Verification Failed. There was an error connecting to the server’ when signing in
+96,apple tv,"‘Verification Required. Before you can make purchases, you must go to the iTunes Store on your computer and verify your payment information.’ when making purchase"
+108,apple tv,‘We’ve run into a problem. Cannot connect to iTunes Store.’ when accessing 3rd party app ‘CBS All Access’ after successful activation
+109,apple tv,‘Your Apple TV is up to date’ instead of showing latest tvOS version when checking for update in Settings
+110,apple tv,"""This movie is already being viewed on another Apple TV or computer."" when playing movie rented from iTunes Store"
+111,apple tv,[IP Address port 80] Password will be sent in the clear' upon waking Apple TV
+113,apple tv,0066 No account returned from UPDA' when playing recorded content in 'WatchESPN'
+114,apple tv,2-step verification enabled on Apple ID account by nefarious party
+115,apple tv,2.4GHz network not detected in Settings while connected to 5GHz network
+116,apple tv,3rd generation Apple TV hardware found inside sealed 4th Generation Apple TV box
+117,apple tv,3rd party ‘Pandora’ app launches to blue screen after selecting a Station
+118,apple tv,3rd party app 'Acorn TV' shows Menu bar with no content on launch
+119,apple tv,3rd Party app 'Air Video HD' not found when searching App Store
+120,apple tv,3rd Party app 'Amazon Video' not found when searching App Store
+126,apple tv,3rd Party app 'AMC' not found when searching App Store
+128,apple tv,3rd Party app 'Angry Birds' not found when searching App Store
+129,apple tv,3rd party app 'Asphalt 8' quits unexpectedly to home screen on launch
+130,apple tv,3rd party app 'Beat Sports' quits to Home screen upon launch
+131,apple tv,3rd Party app 'Carbon TV' not found when searching App Store
+132,apple tv,3rd party app 'CNNgo' unexpected displays lock icon upon attempt to view content
+133,apple tv,3rd Party app 'CW' not found when searching App Store
+134,apple tv,3rd Party app 'DIRECTV' not found when searching App Store
+136,apple tv,3rd Party app 'Disney XD' displays unwanted 'Up Next' banner while content is playing
+137,apple tv,3rd Party app 'DramaFever' not found when searching App Store
+139,apple tv,3rd Party app 'Eros Now' not found when searching App Store
+140,apple tv,3rd Party app 'Fox News Live' not found when searching App Store
+141,apple tv,3rd party app 'HBO GO' does not progress past blank gray screen upon launch
+142,apple tv,3rd party app 'Maple Boy' app not found when searching App Store
+143,apple tv,3rd Party app 'Minecraft' not found when searching App Store
+144,apple tv,3rd party app 'MyTuner Radio' not found when searching the App Store.
+145,apple tv,3rd Party app 'Netflix' content takes longer than expected to buffer/play
+149,apple tv,3rd Party app 'Netflix' content takes longer than expected to buffer/play via Wi-Fi
+150,apple tv,3rd party app 'Netflix' does not progress past 'Loading' screen on launch
+151,apple tv,3rd party app 'Netflix' does not progress past blank black screen upon launch
+160,apple tv,3rd Party app 'Netflix' frequently stops to buffer content
+161,apple tv,3rd party app 'Netflix' opens to blank black screen
+163,apple tv,3rd party app 'Netflix' quits to Home screen upon launch
+165,apple tv,3rd party app 'Netflix' quits unexpectedly
+166,apple tv,3rd party app 'Netflix' quits unexpectedly upon launch
+167,apple tv,3rd Party app 'Pandora' not found on App Store
+168,apple tv,3rd party app 'Plex' does not progress past blue screen upon launch
+169,apple tv,3rd Party app 'Rudaw' not found when searching App Store
+170,apple tv,3rd party app 'Showtime' does not progress past blank black screen upon launch
+171,apple tv,3rd party app 'Showtime' returns to sign in window after clicking 'Start Watching'
+172,apple tv,3rd Party app 'Sling TV' not found on App Store
+173,apple tv,3rd Party app 'Starz' not found when searching App Store
+174,apple tv,3rd Party app 'TWC TV' not found when searching App Store
+177,apple tv,3rd Party app 'VUDU' not found when searching App Store
+179,apple tv,3rd party app 'Watch ABC' live streams content from different location
+180,apple tv,3rd party app 'WWE' displays spinning gear after pressing Menu button
+181,apple tv,3rd Party app 'XFINITY TV Go' not found when searching App Store
+183,apple tv,3rd party app 'Zillow' unexpectedly quits upon launch
+184,apple tv,3rd party app ‘CloudExplorer TV for Amazon Cloud Drive’ does not progress past ‘Waiting for activation’ alert upon launch
+185,apple tv,3rd party app ‘Netflix’ does not progress past ‘Login’ screen when signing in
+186,apple tv,3rd party app ‘Netflix’ does not progress past blank white screen upon launch
+190,apple tv,3rd party App ‘NTV news’ not found when searching App Store
+191,apple tv,3rd party app ‘Pandora’ does not progress past screen with loading indicator upon launch
+192,apple tv,3rd party app ‘Showtime Anytime’ bounces but does not launch when selected
+193,apple tv,3rd party app ‘Showtime’ does not progress past blank white screen upon launch
+196,apple tv,3rd party app ‘Showtime’ launches to blank white screen
+197,apple tv,"3rd party app ‘Watch Food Network’ does not progress past alert, The operation couldn't be completed. (TVMLKitErrorDomain error 3.)’ upon launch"
+198,apple tv,"3rd party app ‘Watch HGTV’ does not progress past alert, The operation couldn't be completed. (TVMLKitErrorDomain error 3.)’ upon launch"
+199,apple tv,3rd party app HBO Go not progressing past activation code screen after successfully activating online
+200,apple tv,3rd party app Loupe shows Menu bar with no content on launch
+201,apple tv,3rd Party app Your Screeners not found when looking in Purchased section of App Store
+203,apple tv,"3rd party apps do not progress past alert, The operation couldn't be completed. (TVMLKitErrorDomain error 3.)’ upon launch"
+205,apple tv,3rd party apps do not progress past blank black screen upon launch
+206,apple tv,3rd party apps do not progress past blank gray screen upon launch
+207,apple tv,3rd party apps do not progress past blank white screen upon launch
+211,apple tv,3rd party apps not found after initial setup
+227,apple tv,3rd party apps prompt for activation code when attempting to watch content
+228,apple tv,3rd party apps quit to Home screen during use
+229,apple tv,3rd party apps quit unexpectedly
+230,apple tv,3rd party devices disconnect from network when Apple TV is asleep
+231,apple tv,3rd party Logitech Harmony Remote does not control Apple TV
+233,apple tv,3rd party Logitech Harmony Remote does not power off Apple TV
+234,apple tv,3rd party Logitech Harmony Remote does not power off Apple TV connected to receiver
+235,apple tv,3rd party tvOS app not found on Mac App Store
+236,apple tv,3RD PARTY VIDEO HARDWARE
+237,apple tv,3rd party wireless keyboard not detected in Bluetooth settings on Apple TV
+238,apple tv,3rd party wireless keyboard not detected in Bluetooth settings on Apple TV when pairing
+240,apple tv,3rd Party: 3rd party devices not switching input channels on CEC compatible TV
+244,apple tv,3rd Party: Alert on TV when attempting to switch to Apple TV input
+245,apple tv,3rd Party: Confusing TV alerts as alerts for Apple TV
+247,apple tv,3rd Party: Television not CEC compatible
+248,apple tv,3rd Party: TV stops functioning with existing devices after connecting Apple TV
+250,apple tv,90-day message when attempting to use their device with their account
+251,apple tv,A customer cannot redeem a code because it cannot be read
+252,apple tv,A customer cannot redeem a code because the code is invalid or not recognized
+253,apple tv,A customer cannot redeem a gift card because it was not activated
+254,apple tv,A customer is not able to access iTunes Extras menus
+255,apple tv,A customer reports a duplicate purchase
+256,apple tv,A customer reports an accidental purchase
+257,apple tv,A customer wants to know how to redeem a code or gift
+258,apple tv,"A problem occurred while playing this item. Try again later, or select a different item. when playing content in Netflix'"
+261,apple tv,Accessibility: Accessibility feature enabled unexpectedly
+264,apple tv,Accessibility: Zoom inadvertently enabled
+265,apple tv,ACCESSORIES
+267,apple tv,Accessories: 3rd party accessory not compatible with Apple TV
+269,apple tv,Accessories: 3rd party game controller not compatible with app
+270,apple tv,Accessories: 3rd party remote not controlling Apple TV
+275,apple tv,Accessories: 3rd party remote not controlling Apple TV when using IR blaster
+276,apple tv,Accessories: Apple TV in range of another device using IR remote
+278,apple tv,Accessories: Bluetooth keyboards not supported
+288,apple tv,Accessories: HDMI cable not included in box
+293,apple tv,Accessories: HomeKit accessories not seen by Apple TV
+296,apple tv,Accessories: HomeKit accessories not seen by Apple TV due to being out of range
+297,apple tv,Accessories: No response
+298,apple tv,Accessories: No response when attempting to pair 3rd party remotes
+299,apple tv,Accessories: Questions or issues regarding 3rd party accessories
+300,apple tv,Accessories: Questions regarding 3rd party accessories
+307,apple tv,Accessories: Questions regarding pairing multiple game controllers with Apple TV
+308,apple tv,Accessories: Questions regarding using external storage devices with Apple TV
+310,apple tv,Accessories: Questions regarding using iOS devices as game controllers
+313,apple tv,Accessories: Unaware HDMI and/or USB-C cable not included in box
+316,apple tv,Accessories: Unsure of purpose of Lightning-to-USB cable included with Apple TV
+323,apple tv,Accessories: USB power adapter not included in box
+325,apple tv,Accidental purchase made by a child or a minor
+326,apple tv,Account disabled at the customers request or for a non-fraudulent reason
+327,apple tv,Account disabled due to fraudulent activity or unauthorized charges
+328,apple tv,"Account has been disabled by a Credit Card, Click & Buy, or Paypal chargeback"
+329,apple tv,Activation code not found
+330,apple tv,Activation Lock: Lost Mode or Apple ID account compromised
+331,apple tv,Activation Lock: Lost Mode or unathorized action on Apple ID account
+332,apple tv,Activation website not found when attempting to navigate to watchabc.com/activate
+333,apple tv,AIRPLAY
+338,apple tv,AirPlay icon not found on iOS device
+344,apple tv,AirPlay icon not found on Mac
+353,apple tv,AirPlay Mirroring stops upon initiating playback of video content in Safari on iOS device
+354,apple tv,AirPlay playback stops upon locking iOS device
+356,apple tv,AirPlay session does not initiate when choosing to AirPlay to Apple TV from iOS or OS X devices
+357,apple tv,AirPlay: AirPlay does not commence after entering AirPlay password
+358,apple tv,AirPlay: Airplay icon not found on source device
+361,apple tv,AirPlay: AirPlay icon not found on source device
+362,apple tv,AirPlay: AirPlay Mirroring option disappears
+363,apple tv,AirPlay: Alert 'An error occurred loading this content'
+364,apple tv,AirPlay: Alert 'Could not connect to Apple TV'
+365,apple tv,AirPlay: Alert 'Could not connect to Apple TV' when attempting to AirPlay
+368,apple tv,AirPlay: Alert 'Playback error'
+370,apple tv,AirPlay: Alert 'This content cannot be played - its format is not compatible'
+371,apple tv,AirPlay: Alert ‘The AirPlay device cannot be found on network'
+372,apple tv,AirPlay: Alert: content is not able to be played on external device
+373,apple tv,AirPlay: An error occurred loading this content when attempting to AirPlay video content from a 3rd party app on an iOS device
+374,apple tv,AirPlay: Apple TV connected to different network than source device
+375,apple tv,AirPlay: Apple TV not connected to Wi-Fi
+378,apple tv,AirPlay: Apple TV not found
+382,apple tv,AirPlay: Apple TV not found when attempting to AirPlay
+388,apple tv,AirPlay: Audio but no video when using AirPlay to Apple TV
+393,apple tv,AirPlay: Audio distortion when using AirPlay to Apple TV
+394,apple tv,AirPlay: Blank black screen when using AirPlay Mirroring
+399,apple tv,AirPlay: Confusing AirPlay with AirDrop on source device
+400,apple tv,AirPlay: content is not able to be played on external device when attempting to AirPlay from a 3rd party app on an iOS device
+401,apple tv,AirPlay: Did not press 'Play' button on source device
+402,apple tv,AirPlay: External display connected to Mac goes black after enabling AirPlay to Apple TV
+403,apple tv,AirPlay: HDCP preventing playback via AirPlay
+406,apple tv,AirPlay: Multiple Apple TVs in range of source device
+407,apple tv,AirPlay: No option to select 'Now Playing' on Apple TV Home screen when playing music via AirPlay
+408,apple tv,AirPlay: No response when attempting to AirPlay to Apple TV
+416,apple tv,AirPlay: Not compatible with captive networks
+417,apple tv,AirPlay: Playback performance issues when using AirPlay to Apple TV
+432,apple tv,AirPlay: Playback stops upon locking iOS device
+434,apple tv,AirPlay: Playback stops when using AirPlay to Apple TV
+441,apple tv,AirPlay: Prompted to enter AirPlay code despite no AirPlay security setting enabled
+444,apple tv,AirPlay: Prompted to enter Apple ID password on iOS device
+445,apple tv,AirPlay: Questions regarding AirPlay Mirroring from Mac
+448,apple tv,AirPlay: Questions regarding using AirPlay from an iOS device
+459,apple tv,AirPlay: Questions regarding using AirPlay from an iOS device
+463,apple tv,AirPlay: Questions regarding using AirPlay from Mac
+466,apple tv,AirPlay: Repeatedly alerted to enter AirPlay code
+468,apple tv,AirPlay: Skipping a song when playing music using AirPlay skips multiple tracks
+469,apple tv,AirPlay: Source device does not meet minimum requirements for AirPlay Mirroring
+480,apple tv,AirPlay: Subtitles do not appear when viewing video via AirPlay
+481,apple tv,AirPlay: Unaware of AirPlay option in iOS Control Center
+482,apple tv,AirPlay: Unknown error -11800 appears on iOS device when selecting another song to AirPlay to Apple TV
+485,apple tv,AirPlay: Using AirPlay to multiple Apple TVs not supported
+486,apple tv,AirPlay: Video but no audio when using AirPlay to Apple TV
+494,apple tv,Album artwork not displayed for music shared via Home Sharing
+495,apple tv,Album artwork not displayed for recently added music via iTunes Match on Mac
+496,apple tv,Alert '0033
+497,apple tv,Alert 'Activation Server is temporarily unavailable.' during Setup Assistant
+515,apple tv,Alert 'An error occurred loading this content' upon initiating playback of purchased TV show
+517,apple tv,Alert 'An error occurred playing this content' upon initiating playback of movie rental
+518,apple tv,Alert 'Anynet+ is not connected' when launching 3rd party app 'Doodle Jump Race' on Apple TV
+519,apple tv,Alert 'Apple ID has been disabled'
+520,apple tv,Alert 'Apple ID has been locked for security reasons'
+522,apple tv,Alert 'Apple ID or password is incorrect' in the iTunes/App Store
+523,apple tv,Alert 'Apple ID or password is incorrect' when signing into iCloud in settings
+524,apple tv,Alert 'Cannot Complete Purchase'
+525,apple tv,Alert 'Cannot Connect to iMovie Theater'
+526,apple tv,Alert 'Cannot Restore Purchase'
+528,apple tv,"Alert 'Cannot sign in, please check user name and password'"
+529,apple tv,Alert 'Cannot Sign in'
+530,apple tv,Alert 'Content not able to be played on external device’
+531,apple tv,Alert 'Could not connect to Apple TV'
+532,apple tv,Alert 'Could not connect to Wi-Fi network'
+533,apple tv,Alert 'Couldn't activate Apple TV'
+539,apple tv,Alert 'Couldn't connect to [shared library]' after selecting Home Shared library in Computers app
+541,apple tv,Alert 'Couldn't connect to the Wi-Fi network'
+542,apple tv,Alert 'credit card was declined'
+543,apple tv,Alert 'Critical Error'
+544,apple tv,Alert 'Date and time couldn't be set'
+547,apple tv,Alert 'Enter the code at http
+548,apple tv,Alert 'Error noAuthz' when attempting to play content within 3rd party app 'A&E'
+549,apple tv,Alert 'Error noAuthz' when playing content within 3rd party app 'History'
+550,apple tv,Alert 'Error noAuthz' when playing content within 3rd party app 'Lifetime'
+551,apple tv,Alert 'Error noAuthz' when playing content within 3rd party app 'WatchABC'
+552,apple tv,Alert 'error'
+553,apple tv,Alert 'Hold to speak' while holding Siri button on Siri Remote
+554,apple tv,Alert 'Home Sharing could not be activated - of an error -3150'
+555,apple tv,Alert 'I'm not finding anything like that' when using Siri to search for music
+556,apple tv,Alert 'I'm not sure what you said' after asking Siri to search for content
+557,apple tv,Alert 'Incorrect email or password' when signing in to 3rd party app 'Pandora'
+558,apple tv,Alert 'invalid agreement number'
+559,apple tv,Alert 'Invalid Subscription' when restoring purchases in 3rd party app 'NHL TV'
+560,apple tv,Alert 'Invalid username or password' upon attempt to activate History Channel app via website using cable subscription credentials
+561,apple tv,Alert 'It looks like you already have a Hulu account! Please log in here'
+562,apple tv,Alert 'Item Not Available The item you've requested is not currently available in the U'
+565,apple tv,Alert 'No internet connection. Check your Network connection and try again'
+566,apple tv,Alert 'No iTunes Store Account'
+568,apple tv,Alert 'No iTunes Store Account' on attempt to sign into iTunes and App Store
+572,apple tv,Alert 'No iTunes Store Account' when attempting to download an app in App Store
+575,apple tv,Alert 'No network connection.' when attempting to activate Apple TV via Ethernet
+578,apple tv,Alert 'No network connection'
+582,apple tv,Alert 'No Network Detected. Check your Internet connection'
+583,apple tv,alert 'No Network Detected. Check your Internet connection'
+590,apple tv,Alert 'No Network Detected'
+591,apple tv,Alert 'No signal detected'
+592,apple tv,Alert 'Not Supported' on TV when connected directly to Apple TV
+593,apple tv,Alert 'Pairing Remote. Bring it closer to your Apple TV.' when pairing Siri Remote
+596,apple tv,"Alert 'Photo Stream is empty, add photos or videos from devices' upon choosing 'My Photos' within Screen Saver settings on Apple TV"
+597,apple tv,"Alert 'Photo Stream is empty, add photos or videos from devices' upon choosing 'Photo Stream' within Photos app on Apple TV"
+598,apple tv,Alert 'Playback error'
+599,apple tv,Alert 'Playback Failure'
+600,apple tv,Alert 'Playback Failure' when attempting to play video in 3rd party app 'Hulu'
+602,apple tv,Alert 'Please enter a valid enrollment number' when registering AppleCare at selfsolve'
+603,apple tv,Alert 'Port 80. Password will be sent in the clear.' upon waking Apple TV
+606,apple tv,Alert 'Purchase Could Not Be Completed'
+609,apple tv,Alert 'Remote Connected' consistently displayed in upper right corner of display
+611,apple tv,Alert 'Some information is missing' when attempting to register AppleCare
+612,apple tv,Alert 'Sorry I can't help you with that' when using supported Siri commands
+613,apple tv,Alert 'Sorry we had trouble logging you in. Request Failed
+617,apple tv,"Alert 'Sorry, we had trouble logging you in'"
+618,apple tv,Alert 'Subscribe to NFL game pass' after restoring subscription purchase via iTunes in 3rd party app NFL
+620,apple tv,Alert 'The Apple Activation Server is temporarily unavailable'
+625,apple tv,Alert 'The Apple TV software update server could not be contacted'
+627,apple tv,Alert 'The code entered is not valid.’ when redeeming gift card in iTunes Store
+628,apple tv,Alert 'The code entered is not valid'
+629,apple tv,"Alert 'The operation couldn't be completed, An unknown error occurred (-11800)' on iOS device"
+630,apple tv,Alert 'There are no photos in this library' upon choosing 'Home Sharing' within Screen Saver settings on Apple TV
+631,apple tv,Alert 'There was a problem connecting to iCloud'
+632,apple tv,Alert 'There was a problem connecting to the network'
+635,apple tv,Alert 'There was a problem connecting to the network' when connecting to Wi-Fi
+650,apple tv,Alert 'There's a billing problem with a previous purchase' in the iTunes/App Store
+651,apple tv,Alert 'This Apple ID does not have a Beachbody subscription'
+652,apple tv,Alert 'This content cannot be played - its format is not compatible'
+654,apple tv,Alert 'This email address is being used as an Apple ID' when creating new Apple ID
+655,apple tv,Alert 'This requires iTunes Match or Apple Music'
+656,apple tv,Alert 'Too many of devices are playing content from the iTunes Store at the same time'
+657,apple tv,Alert 'Turn On Home Sharing in iTunes'
+660,apple tv,Alert 'Turn On Home Sharing in iTunes' intermittently
+661,apple tv,Alert 'Turn On Home Sharing in iTunes' when accessing shared content
+673,apple tv,Alert 'Unlock iOS Device' appears after choosing a language in Setup Assistant
+674,apple tv,Alert 'Unsupported Audio Signal' when initiating playback in 3rd party apps
+675,apple tv,Alert 'Verification Failed'
+682,apple tv,Alert 'Video Unavailable'
+683,apple tv,Alert 'Wrong email or password provided' when signing into 3rd party app 'Acorn TV'
+684,apple tv,Alert 'www.apple.com [80] Password will be sent in the clear' upon waking Apple TV
+686,apple tv,Alert 'You don't have any music on this Apple TV' within Music app
+691,apple tv,Alert 'You have not purchased any music' when launching Music app
+692,apple tv,Alert 'You need to be a CBS All Access subscriber to enjoy this video'
+693,apple tv,Alert 'Your Apple ID has been locked for security reasons'
+696,apple tv,Alert 'Your Apple ID has been locked for security reasons' during Setup Assistant
+697,apple tv,Alert 'Your Apple ID or password is incorrect' when signing into iCloud in settings
+700,apple tv,Alert 'Your credit card has expired' on attempt to rent a movie from iTunes
+701,apple tv,Alert ‘An error occurred loading this content'
+702,apple tv,Alert ‘Apple ID Verification'
+703,apple tv,Alert ‘Cannot connect to iTunes Store’ upon launching TV Shows
+704,apple tv,Alert ‘Enter the AirPlay code for Apple TV’ when attempting to enable AirPlay
+705,apple tv,Alert ‘Ready to play in ‘x’ minutes’ and spinning gear
+707,apple tv,Alert ‘Sign in to confirm age'
+708,apple tv,Alert ‘The update was not successful’
+709,apple tv,Alert ‘This item is restricted by parental controls for Apple TV'
+710,apple tv,Alert ‘Unable to Sign In. The email address or password you entered is incorrect.’ when signing in to 3rd party app ‘HBO Now’
+711,apple tv,Alert ‘Unable to Sign In. userServiceError-1000.’ when signing in to 3rd party app ‘HBO Now’
+712,apple tv,Alert ‘Verification Required'
+715,apple tv,"Alert ""Please contact iTunes support to complete this transaction"""
+716,apple tv,alert No Network Detected. Check your Internet connection after waking from sleep
+717,apple tv,"Alert, Playback could not be started this channel is not part of your TV package with TV channel apps"
+718,apple tv,Alert: account name or password could not be verified
+719,apple tv,Alert: account name or password could not be verified when signing in to 'Netflix'
+720,apple tv,Alert: Apple ID or password is incorrect
+723,apple tv,Alert: Apple ID or password is incorrect in the iTunes/App Store
+728,apple tv,Alert: Apple ID verification failed
+729,apple tv,Alert: Apple ID verification failed when attempting to sign in to Photos
+731,apple tv,Alert: Apple ID verification failed when signing in during Setup Assistant
+733,apple tv,Alert: Apple TV cannot sign in to iTunes Store
+734,apple tv,Alert: Apple TV is not connected to the internet
+735,apple tv,Alert: Apple TV is unable to connect to the iCloud server when signing in with Apple ID
+736,apple tv,Alert: battery level on Siri Remote is low
+737,apple tv,Alert: credit card was declined when updating iTunes account with credit/debit card
+738,apple tv,Alert: email or password is incorrect
+739,apple tv,Alert: Item not available in the U'
+741,apple tv,Alert: iTunes Store movie rental is no longer available on attempt to play
+742,apple tv,Alert: network was cannot be joined
+743,apple tv,Alert: network was unable to be joined when connecting to Wi-Fi
+745,apple tv,Alert: password is incorrect when joining Wi-Fi network in Settings
+748,apple tv,Alert: password is incorrect when joining Wi-Fi network in Setup Assistant
+749,apple tv,Alert: problem occurred while playing this item when playing content in 'Netflix'
+751,apple tv,Alert: problem occurred while playing this item when playing content in 3rd party app 'Netflix'
+752,apple tv,Alert: something went wrong when playing content in 3rd party app 'Disney Jr.'
+753,apple tv,Alert: TV content is unavailable when attempting to access TV shows in CBS app
+754,apple tv,Alert: update payment info
+755,apple tv,Alert: verify Apple ID billing info
+757,apple tv,Alert: verify payment info
+758,apple tv,Alert: Wi-Fi network is not connected to the internet
+760,apple tv,Alert: you don't have any music on this Apple TV when selecting My Music in the Music app
+761,apple tv,alerted 'A problem occurred while playing this item'
+763,apple tv,alerted 'Configure Game Center profile' after launching 3rd party app 'Asphalt 8
+764,apple tv,alerted ‘Pairing Remote. Bring it closer to your Apple TV to continue pairing.'
+765,apple tv,alerted ‘Pairing Remote. Bring it closer to your Apple TV to continue pairing.'
+766,apple tv,alerted ‘Pairing Remote'
+767,apple tv,Alerted a charge would incur from downloading free app
+768,apple tv,Alerted an error occurred playing content upon initiating playback of movie rental
+769,apple tv,Alerted Disney Infinity Base not detected when playing Disney Infinity app
+770,apple tv,Alerted HDCP is required for playback
+771,apple tv,Alerted invalid username or password
+772,apple tv,Alerted of HDCP error on video playback
+773,apple tv,alerted that Apple TV is not connected to the internet
+775,apple tv,alerted that Siri Remote has connected/disconnected
+780,apple tv,Alerted the activation server is temporarily unavailable when activating device
+781,apple tv,Alerted to sign into TV provider to use 3rd party 'Watch Food Network' app
+782,apple tv,alerted to update device software despite tvOS being up-to-date
+783,apple tv,Alerted to verify payment method when attempting to make App Store purchase
+784,apple tv,alerted Try again when attempting to AirPlay from LuvTv on iOS device
+785,apple tv,Alerted username or password is incorrect
+788,apple tv,Alerted username or password is incorrect when making in-app purchase in 'NFL'
+789,apple tv,Alerted username or password is incorrect when signing in to 3rd party app HBO Now
+790,apple tv,Alerted username or password is incorrect when signing in to 3rd party app Hulu
+791,apple tv,All songs in album within Music app are skipped after pressing play
+792,apple tv,An error occurred loading this content upon initiating playback of content in 3rd party apps
+793,apple tv,An error occurred loading this content upon initiating playback of content in Movies app
+799,apple tv,An error occurred loading this content upon initiating playback of content in NBC via Wi-Fi
+800,apple tv,An error occurred loading this content upon initiating playback of purchased TV show
+801,apple tv,an error occurred playing content upon initiating playback of purchased content
+802,apple tv,An issue that is not specific to a type of content
+803,apple tv,An unknown error occurred.' when attempting to enter Apple ID in Setup Assistant
+804,apple tv,Anynet+ device is not connected. Please check connection and try again when selecting Apple TV HDMI CEC input on Samsung TV
+805,apple tv,App icons in App Store display as blank white tiles
+806,apple tv,APP STORE
+807,apple tv,App Store app does not progress past blank white screen upon launch
+808,apple tv,App Store does not progress past blank gray screen upon launch
+809,apple tv,App Store does not progress past blank white screen with spinning gear upon launch
+811,apple tv,App Store loads blank gray screen
+812,apple tv,App Store not found on home screen
+813,apple tv,App Store only displaying Canadian content
+814,apple tv,App Store: App icons appear as blank tiles
+815,apple tv,App Store: Apps purchased on iOS device not universal apps
+817,apple tv,App Store: Blank gray screen appears upon launch
+824,apple tv,App Store: Issues with searching the App Store
+829,apple tv,App Store: No email clients available
+830,apple tv,App Store: No web browser apps available
+833,apple tv,App Store: Questions regarding downloading apps
+845,apple tv,App Store: Requesting suggestions or recommendation for 3rd party apps
+846,apple tv,App Store: tvOS apps not found in App Store on other platforms
+848,apple tv,App Store: tvOS purchased apps not universal apps
+849,apple tv,App Store: tvOS version of apps not available in App Store
+870,apple tv,App Store: Unaware of being in app product page within App Store
+874,apple tv,App stuck as 'Waiting' with placeholder icon on Home Screen upon attempt to download from App Store
+877,apple tv,App stuck as Waiting with placeholder icon on Home Screen upon attempt to download from App Store
+878,apple tv,APPLE ID
+879,apple tv,Apple ID account compromised
+880,apple tv,Apple ID account compromised - unauthorized access
+881,apple tv,Apple ID account email address dispute
+882,apple tv,Apple ID account enrolled in 2-step verification without customer’s knowledge
+883,apple tv,Apple ID account hacked
+884,apple tv,Apple ID account hijacked
+885,apple tv,Apple ID account setup or signup problem
+890,apple tv,Apple ID creation - Account creation rejected
+891,apple tv,Apple ID creation - Email address already in use
+892,apple tv,Apple ID creation - Email address not accepted
+893,apple tv,Apple ID creation - Email verification code not accepted
+894,apple tv,Apple ID creation - Verification email was not received
+895,apple tv,Apple ID email address dispute
+896,apple tv,Apple ID email dispute
+897,apple tv,Apple ID email verification not received
+898,apple tv,Apple ID not saved when adding multiple Apple IDs to Apple TV
+899,apple tv,Apple ID or password is incorrect on Apple TV when pasting password into Remote app on iOS device
+900,apple tv,Apple ID or password is incorrect when signing in to 3rd party app 'Showtime'
+901,apple tv,Apple ID or password is incorrect when signing in to Apple ID in Setup Assistant
+904,apple tv,Apple ID password displayed in Apple ID field
+905,apple tv,Apple ID Password Issues
+908,apple tv,Apple ID Sign-In Issues
+909,apple tv,Apple ID Sign-In Issues - Did not receive phone call (Two-factor)
+910,apple tv,Apple ID Sign-In Issues - Inaccurate sign-in location (Two-factor)
+911,apple tv,Apple ID Sign-In Issues - Lost/forgotten password
+912,apple tv,Apple ID Sign-In Issues - Other sign-in issue
+913,apple tv,Apple ID Sign-In Issues - Prompted for verification code
+914,apple tv,Apple ID Sign-In Issues - Verification code not received
+915,apple tv,Apple ID: Alert ‘Verification Failed'
+922,apple tv,Apple ID: Apple ID does not exist
+927,apple tv,Apple ID: Apple ID has been disabled
+928,apple tv,Apple ID: Apple ID is locked
+931,apple tv,Apple ID: Apple ID is locked for security reasons
+935,apple tv,Apple ID: Apple ID not set up to use with iTunes
+946,apple tv,Apple ID: Apple ID or email address is already in use
+947,apple tv,Apple ID: Creating an Apple ID
+950,apple tv,Apple ID: Entering Apple ID: Incorrect Apple ID or password
+968,apple tv,Apple ID: Entering incorrect Apple ID
+981,apple tv,Apple ID: How to change an Apple ID or Apple ID password
+982,apple tv,Apple ID: Incorrect Apple ID or password
+983,apple tv,Apple ID: Previous owner’s Apple ID signed in
+986,apple tv,Apple ID: Previously entered Apple IDs not saved
+987,apple tv,Apple ID: Prompted for old or different Apple ID
+988,apple tv,Apple ID: Prompted to sign in with Apple ID after completing Automatic Setup
+989,apple tv,Apple ID: Questions regarding signing out of an Apple ID on Apple TV
+995,apple tv,Apple ID: Questions regarding using Apple IDs on Apple TV
